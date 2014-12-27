@@ -1,0 +1,8 @@
+{
+  "name" : "quazisoft/mdarray",
+  "version" : "0.0.1",
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ]
+}
