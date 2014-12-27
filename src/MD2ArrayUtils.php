@@ -11,10 +11,10 @@ class MD2ArrayUtils
 {
 
     /**
-     * Is column has only null values
+     * Doues row ($row) has only null values
      *
      * @param array $array
-     * @param int $row (>=0)
+     * @param int $row row number (>=0)
      * @return boolean
      */
     public static function isNullRow($array, $row)
@@ -30,17 +30,17 @@ class MD2ArrayUtils
     }
 
     /**
-     * Is column has only null values
+     * Does column ($column) has only null values
      *
      * @param array $array
-     * @param int $column (>=0)
+     * @param int $column column number (>=0)
      * @return boolean
      */
     public static function isNullColumn($array, $column)
     {
         $isNull = true;
         for ($row = 0; $row < count($array); $row ++) {
-            if (null !== $array[$r][$column]) {
+            if (null !== $array[$row][$column]) {
                 $isNull = false;
                 break;
             }
