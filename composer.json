@@ -1,5 +1,7 @@
 {
   "name" : "quazisoft/mdarray",
+  "description": "Multi-dimensial array utils",
+  "keywords": ["array"],
   "version" : "0.0.1",
   "repositories" : [ {
     "type" : "composer",
@@ -17,5 +19,6 @@
       "Quazisoft\\MDArray\\" : "src/"
     }
   },
-  "license" : "MIT"
+  "license" : "MIT",
+  "minimum-stability": "dev"
 }
