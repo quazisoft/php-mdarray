@@ -16,7 +16,7 @@ Add the package to your `composer.json` and run `composer update`.
 
 ## Basic Usage
 
-**Example data**
+**Example**
 ```php
 $array = array(array(1.1,1.2,null), array(2.1,2.2,null));
 $isNull = MD2ArrayUtils::isNullRow($array, 0); // $isNull === false
