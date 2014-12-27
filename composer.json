@@ -4,5 +4,18 @@
   "repositories" : [ {
     "type" : "composer",
     "url" : "https://packagist.org/"
-  } ]
+  } ],
+  "authors" : [ {
+    "name" : "Victor Borisov",
+    "email" : "quazer.ru@gmail.com",
+    "role" : "developer"
+  } ],
+  "keywords" : [ "array", "data" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Quazisoft\\MDArray\\" : "src/"
+    }
+  },
+  "license" : "MIT"
 }

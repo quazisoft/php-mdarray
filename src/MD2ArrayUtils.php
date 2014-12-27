@@ -2,7 +2,7 @@
 namespace Quazisoft\MDArray;
 
 /**
- * array[][] utils
+ * 2-dimension array utils
  *
  * @author Victor Borisov (quazer.ru@gmail.com)
  *
@@ -14,7 +14,7 @@ class MD2ArrayUtils
      * Is column has only null values
      *
      * @param array $array
-     * @param int $row
+     * @param int $row (>=0)
      * @return boolean
      */
     public static function isNullRow($array, $row)
@@ -33,7 +33,7 @@ class MD2ArrayUtils
      * Is column has only null values
      *
      * @param array $array
-     * @param int $column
+     * @param int $column (>=0)
      * @return boolean
      */
     public static function isNullColumn($array, $column)
